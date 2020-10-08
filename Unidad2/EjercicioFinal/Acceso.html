@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Entregable</title>
+    <script type="text/javascript" src="Validacion.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h3 style="color: red;">Identificación mediante NIF</h1>
+        <form>
+            <label for="DNI">DNI: </label>
+            <input type="text" name="DNI" id="DNI">
+            <label for="letra">Letra: </label>
+            <select name="letra" id="letra">
+                <option value="T">T</option>
+                <option value="R">R</option>
+                <option value="W">W</option>
+                <option value="A" selected="selected">A</option>
+                <option value="G">G</option>
+                <option value="M">M</option>
+                <option value="Y">Y</option>
+                <option value="F">F</option>
+                <option value="P">P</option>
+                <option value="D">D</option>
+                <option value="X">X</option>
+                <option value="B">B</option>
+                <option value="N">N</option>
+                <option value="J">J</option>
+                <option value="Z">Z</option>
+                <option value="S">S</option>
+                <option value="Q">Q</option>
+                <option value="V">V</option>
+                <option value="H">H</option>
+                <option value="L">L</option>
+                <option value="C">C</option>
+                <option value="K">K</option>
+                <option value="E">E</option>
+            </select>
+            <br><br>
+            <button type="button" id="butEnviar" style="margin-left: 2%;margin-right: 2%;" onclick="calcularLetra()">ENVIAR</button>
+            <button type="reset" id="butBorrar">BORRAR</button>
+        </form>
+    </div>
+</body>
+</html>
