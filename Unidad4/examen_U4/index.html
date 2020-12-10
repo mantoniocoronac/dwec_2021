@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <script src="script.js" defer></script>
+    <style>
+    .error{
+        border: solid 3px red;
+    }
+    .correcto{
+        border: solid 3px green;
+    }
+    </style>
+
+</head>
+<body>
+    <form>
+        Nombre del modelo
+        <input type="text" id="nombre"><br>
+        <select name="modelo" id="modelo">
+            <option value="0" selected>Selecciona el modelo</option>
+            <option value="Televisor">Televisor</option>
+            <option value="Frigorifico">Frigorifico</option>
+            <option value="Lavadora">Lavadora</option>
+            <option value="Microondas">Microondas</option>
+            <option value="Lavavajillas">Lavavajillas</option>
+        </select><br>
+        Fecha de Fabricacion
+        <input type="text" id="fecha"><br>
+        Consumo energetico
+        <input type="text" id="consumo"><br>
+        Referencia del modelo
+        <input type="text" id="referencia"><br>
+        Password de comercial
+        <input type="password" id="passw"><br>
+        <button id="limpiar" type="reset">Limpiar</button>
+        <button id="enviar" type="submit">Enviar</button>
+    </form>
+    <div id="error"></div><br>
+    <div id="referencia"></div>
+</body>
+</html>
