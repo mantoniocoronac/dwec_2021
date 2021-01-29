@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form>
+        <label for="ncol">Numero de columnas</label>
+        <input type="text" id="ncol"><br>
+        <label for="nfil">Numero de filas</label>
+        <input type="text" id="nfil"><br>
+        <label for="header">Introducir header</label>
+        <input type="checkbox" id="header"><br>
+        <label for="valdef">Valor por defecto</label>
+        <input type="text" id="valdef"><br>
+        <label for="grosbord">Grosor del borde</label>
+        <input type="text" id="grosbord"><br>
+        <label for="colorbord">Color del borde</label>
+        <select id="colorbord">
+            <option selected value="black">Negro</option>
+            <option value="green">Verde</option>
+            <option value="red">Rojo</option>
+            <option value="blue">Azul</option>
+        </select><br>
+    </form>
+    <button onclick="generarTabla()">Enviar</button>
+</body>
+</html>
